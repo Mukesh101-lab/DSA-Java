@@ -1,4 +1,4 @@
-
+package Sorting;
 
 public class TrappingRainWater {
     public static int TrapWater(int height[]){
