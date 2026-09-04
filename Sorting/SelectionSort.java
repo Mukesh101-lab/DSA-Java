@@ -1,4 +1,5 @@
-
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class SelectionSort {
     public static void  Sort(int arr[]){
@@ -18,7 +19,8 @@ public class SelectionSort {
     }
     public static void main(String[] args) {
         int arr[] = {5,4,1,3,2};
-        Sort(arr);
+        // Sort(arr);
+        Arrays.sort(arr,0,3);
 
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
